@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul
+        {
+            background-color: black;
+            overflow: hidden;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        li
+        {
+            float: left;
+        }
+        li a
+        {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            padding: 20px;
+        }
+        a.active
+        {
+            background-color: aqua;
+            color: black;
+        }
+        li a:hover:not(.active)
+        {
+            background-color: gray;
+        }
+        .dropdown_content a
+        {
+            display: block;
+
+            color: black;
+        }
+        .dropdown_content a:hover
+        {
+            background-color: bisque;
+        }
+        .dropdown_content
+        {
+            background-color: white;
+            box-shadow: 0px 8px 16px rgba(0,0.0,0.4);
+            display: none;
+            position: absolute;
+            width: 20%;
+        }
+        .dropdown:hover .dropdown_content
+        {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="dropdown">
+            <a class="dropbtn" href="#">Phone</a>
+            <div class="dropdown_content">
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+            </div>
+        </li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</body>
+</html>
