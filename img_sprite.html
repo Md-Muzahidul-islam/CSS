@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .icon
+        {
+            overflow: hidden;
+        }
+        ul
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+        li
+        {
+            list-style-type: none;
+            float: left;
+            margin-right: 10px;
+        }
+        li:last-child
+        {
+            margin-right: 0px;
+        }
+        li a
+        {
+            background-image: url(images.png);
+            background-position: 0px 0px;
+            background-repeat: no-repeat;
+            height: 47px;
+            width: 47px;
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 50%;
+        }
+        li:hover:nth-child(1) a{
+            background-position: 0px -40px;
+        }
+        li:nth-child(2) a
+        {
+            background-position: -73px 0px;
+        }
+        li:hover:nth-child(2) a
+        {
+            background-position: -73px -40px;
+        }
+        li:nth-child(3) a
+        {
+            background-position: -110px 0px;
+        }
+        li:hover:nth-child(3) a
+        {
+            background-position: -110px -40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="icon">
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </div>
+</body>
+</html>
