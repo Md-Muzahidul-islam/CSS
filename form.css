@@ -1,0 +1,108 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body
+{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+.form
+{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+}
+.header
+{
+    text-align: center;
+    background-color: darkgreen;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.form .content
+{
+    padding: 20px;
+}
+.form .content form .row
+{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    height: 45px;
+}
+.form .content form .row input
+{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    padding-left: 60px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid lightblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* .form .content form .row input:focus
+{
+    border-color: aqua;
+    box-shadow: inset;
+} */
+
+.form .content form .row i
+{
+    height: 100%;
+    width: 45px;
+    background-color: rgb(26, 255, 0);
+    display: flex;
+    border: 1ps solid lightblue;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 5px 0px 0px 3px;
+    font-size: 30px;
+    color: white;
+}
+.form .content form .button
+{
+    height: 45px;
+    margin: 20px 0px;
+    border-color: aqua;
+}
+.form .content form .button input
+{
+    padding: 20px;
+    width: 100%;
+    background-color: aqua;
+    border: 1px solid aqua;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.link
+{
+    text-decoration: none;
+}
+.link:hover
+{
+    text-decoration: underline;
+}
+.sign_up
+{
+    margin-top: 30px;
+    text-align: center;
+}
+.sign_up_link
+{
+    text-decoration: none;
+}
+.sign_up_link:hover
+{
+    text-decoration: underline;
+}
